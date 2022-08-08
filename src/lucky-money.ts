@@ -73,11 +73,18 @@ export function handleCollect(event: Collect): void {
   // - contract.splitSignature(...)
 }
 
-export function handleCreate(event: Create): void {}
+export function handleCreate(event: Create): void {
+  console.log("handleCreate");
+}
 
-export function handleDisperse(event: Disperse): void {}
+export function handleDisperse(event: Disperse): void {
+  console.log("handleDisperse");
+}
 
-export function handleDistribute(event: Distribute): void {}
+export function handleDistribute(event: Distribute): void {
+  console.log("handleDistribute");
+
+}
 
 export function handleFeeRateUpdate(event: FeeRateUpdate): void {}
 
